@@ -20,5 +20,19 @@ public class Product {
         this.name = name;
     }
 
-    // Getters and Setters
+    public String getHscode() {
+        return hscode;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setHscode(String hscode) {
+        this.hscode = hscode;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
